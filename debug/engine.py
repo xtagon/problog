@@ -55,7 +55,7 @@ def test(filename, debug=None, trace=None):
     print(target)
 
     with open("engine_debug.dot", "w") as f:
-        print(target.toDot(), file=f)
+        print(target.to_dot(), file=f)
 
 
 if __name__ == "__main__":
